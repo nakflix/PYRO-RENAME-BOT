@@ -31,8 +31,8 @@ class Config(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "6352502454:AAHyIL24fv8ASt6YJw0Wej8Nvvp03iZBZGY") 
    
     # database config
-    DB_NAME = os.environ.get("DB_NAME","pyro-botz")     
-    DB_URL  = os.environ.get("DB_URL","")
+    DB_NAME = os.environ.get("DB_NAME","Cluster0")     
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://alphakiti:alpha3720@cluster0.z5ggliv.mongodb.net/?retryWrites=true&w=majority")
  
     # other configs
     BOT_UPTIME  = time.time()
