@@ -26,9 +26,9 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "")
-    API_HASH  = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID    = os.environ.get("API_ID", "14298205" )
+    API_HASH  = os.environ.get("API_HASH", "28df6d84da76d8606bf5f0e71ecfb62c" )
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6352502454:AAHyIL24fv8ASt6YJw0Wej8Nvvp03iZBZGY") 
    
     # database config
     DB_NAME = os.environ.get("DB_NAME","pyro-botz")     
